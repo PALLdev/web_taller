@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import Normalize Css (quita los estilos que agrega el navegador por defecto) -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- import estilos personalizados -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- import Jam-icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <title>Inicio | Automotriz</title>
+</head>
+<body>
+    <!-- Cabecera (Logo y menu de navegación) -->
+    <header class="main-header">
+        <div class="content-wrapper">
+            <a href="/">
+                <img src="/images/logo1.png" alt="Logo Taller">
+            </a>
+            <span class="jam jam-unordered-list" id="open-menu-button"></span>
+            <nav class="main-menu" id="main-menu">
+                <span class="jam jam-close-circle" id="close-menu-button"></span>
+                <ul>
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/quienes-somos.html">Quienes somos</a>
+                    </li>
+                    <li>
+                        <a href="/proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner principal -->
+        <section class="main-banner section-container">
+            <div class="content-wrapper content">
+                <div class="container">
+                    <h1 class="title">Bienvenido a Taller Automotriz</h1>
+                    <p class="subtitle">Somos lideres y especialistas en el area de reparaciones a vehiculos. Visitanos y nos encargaremos de todas las reparaciones necesarias para tu vehiculo. !No esperes más!</p>
+                    <div>
+                        <a class="button white" href="/contacto.html">Comunicate con nosotros</a>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image" src="/images/trabajo.jpg" alt="Motor">
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuestros servicios -->
+        <section class="services-section section-container">
+            <h2>Nuestros servicios</h2>
+            <div class="content-wrapper">
+                <article class="service-item">
+                    <span class="jam jam-cogs"></span>
+                    <h3>Revisión de motor</h3>
+                    <p>Nos encargamos de la reparación mecanica del vehiculo.</p>
+                </article>
+                <article class="service-item">
+                    <span class="jam jam-car"></span>
+                    <h3>Desabolladura y pintura</h3>
+                    <p>Servicio de reparación de desabolladura y pintura de vehículos, respetando los lineamientos de cada marca.</p>
+                </article>
+                <article class="service-item">
+                    <span class="jam jam-dashboard"></span>
+                    <h3>Venta de Upgrades</h3>
+                    <p>Pintura y venta de productos para el interior de tu vehiculo.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sobre nosotros -->
+        <section class="section-container about-section">
+            <img class="background" src="/images/bg-section.jpg" alt="BG Taller">
+            <div class="content-wrapper">
+                <h2 class="title">Sobre nosotros</h2>
+                <p>En Taller Automotriz Constitución te daremos un servicio de calidad garantizada. Visitanos en ...</p>
+                <a href="/proyectos.html" class="button white ghost">Ver experiencia</a>
+            </div>
+        </section>
+
+        <!-- Ultimos proyectos -->
+        <section class="section-container last-projects">
+            <h2>Ultimos proyectos</h2>
+            <div class="content-wrapper">
+                <a href="#" class="project-item">
+                    <article>
+                        <div>
+                            <h4>Titulo proyecto</h4>
+                            <p>Descripción</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="/images/trabajo1.jpg" alt="Proyecto 1">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="project-item">
+                    <article>
+                        <div>
+                            <h4>Titulo proyecto</h4>
+                            <p>Descripción</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="/images/trabajo2.jpg" alt="Proyecto 2">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="project-item">
+                    <article>
+                        <div>
+                            <h4>Titulo proyecto</h4>
+                            <p>Descripción</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="/images/trabajo3.jpg" alt="Proyecto 3">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="project-item">
+                    <article>
+                        <div>
+                            <h4>Titulo proyecto</h4>
+                            <p>Descripción</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="/images/trabajo4.jpg" alt="Proyecto 4">
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <!-- Trabaja con nosotros -->
+        <section class="work-with-us">
+            <div class="content-wrapper">
+                <h2 class="title">¿Quieres trabajar con nosostros?</h2>
+                <p class="subtitle">Si tienes conocimientos en el area mecanica y sientes que podrias aportar a nuestra en empresa contactanos en redes sociales <br/>o via correo en:</p>
+                <a class="button" href="mailto:contacto@taller.cl">contacto@taller.cl</a>
+                <div class="social-networks">
+                    <a href="#" target="_blank"><span class="jam jam-facebook"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-whatsapp"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-instagram"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-twitter"></span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Todos los derechos reservados © 2020 | Taller Automotriz Constitución</p>
+    </footer>
+
+    <script src="/scripts/menu.js"></script>
+
+</body>
+</html>

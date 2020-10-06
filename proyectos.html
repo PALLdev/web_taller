@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import Normalize Css (quita los estilos que agrega el navegador por defecto) -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- import estilos personalizados -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- import Jam-icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <title>Inicio | Automotriz</title>
+</head>
+<body>
+    <!-- Cabecera (Logo y menu de navegación) -->
+    <header class="main-header">
+        <div class="content-wrapper">
+            <a href="/">
+                <img src="/images/logo1.png" alt="Logo Taller">
+            </a>
+            <span class="jam jam-unordered-list" id="open-menu-button"></span>
+            <nav class="main-menu" id="main-menu">
+                <span class="jam jam-close-circle" id="close-menu-button"></span>
+                <ul>
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/quienes-somos.html">Quienes somos</a>
+                    </li>
+                    <li>
+                        <a href="/proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="projects-section section-container"> 
+            <h1>Trabajos realizados</h1>
+            <div class="content-wrapper">
+
+                <article class="card-project">
+                    <div class="image-container">
+                        <img src="/images/trabajo1.jpg" alt="Trabajo 1">
+                    </div>
+                    <div>
+                        <h3>Revisión de motor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis,</p>
+                        <a href="#" target="_blank">Ver imagenes</a>
+                    </div>
+                </article>
+
+                <article class="card-project">
+                    <div class="image-container">
+                        <img src="/images/trabajo2.jpg" alt="Trabajo 2">
+                    </div>
+                    <div>
+                        <h3>Reparación de valvulas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis,</p>
+                        <a href="#" target="_blank">Ver imagenes</a>
+                    </div>
+                </article>
+
+                <article class="card-project">
+                    <div class="image-container">
+                        <img src="/images/trabajo3.jpg" alt="Trabajo 3">
+                    </div>
+                    <div>
+                        <h3>Cambio de aceite de motor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis,</p>
+                        <a href="#" target="_blank">Ver imagenes</a>
+                    </div>
+                </article>
+
+                <article class="card-project">
+                    <div class="image-container">
+                        <img src="/images/trabajo4.jpg" alt="Trabajo 4">
+                    </div>
+                    <div>
+                        <h3>Upgrade de focos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis,</p>
+                        <a href="#" target="_blank">Ver imagenes</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Todos los derechos reservados © 2020 | Taller Automotriz Constitución</p>
+    </footer>
+
+    <script src="/scripts/menu.js"></script>
+
+</body>
+</html>
